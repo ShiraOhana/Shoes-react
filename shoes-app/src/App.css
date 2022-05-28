@@ -1,0 +1,11 @@
+.card {
+  width: 98%;
+  margin: 0 auto;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
