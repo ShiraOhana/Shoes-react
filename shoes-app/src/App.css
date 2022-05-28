@@ -1,3 +1,10 @@
+.App {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
 .card {
   width: 98%;
   margin: 0 auto;
@@ -8,4 +15,29 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+}
+.home {
+  background: url("./bcg.png") no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  color: #ecc5d6;
+  text-align: center;
+  padding-top: 200px;
+  margin: 0;
+}
+button {
+  background-color: #ecc5d6;
+  padding: 15px 25px;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: #fff;
+  margin: 20px;
+}
+button:hover {
+  color: #fff;
+  background-color: #ecacc8;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
 }

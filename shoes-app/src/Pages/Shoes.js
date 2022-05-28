@@ -36,7 +36,9 @@ export default class Shoes extends Component {
             </div>
           ))}
         </div>
-        <Link to="/">Home</Link>
+        <button>
+          <Link to="/">Back Home</Link>
+        </button>
       </div>
     );
   }
